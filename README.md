@@ -12,9 +12,10 @@ For usage, hosts file shoud be updated so it has `127.0.0.1 posts.com` rule.
 ## Stack
 Server side is coded in NodeJS
 Client side is coded in ReactJS
+Node version is v16.17.0
 
 ## Installation commands 
-brew => /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-docker-desktop(kubernetes) => https://www.docker.com/products/docker-desktop/
-ingress-nginx => kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.5.1/deploy/static/provider/cloud/deploy.yaml
-skaffold.dev => brew install skaffold
+1. brew => /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+2. docker-desktop(kubernetes) => https://www.docker.com/products/docker-desktop/
+3. ingress-nginx => kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.5.1/deploy/static/provider/cloud/deploy.yaml
+4. skaffold.dev => brew install skaffold
