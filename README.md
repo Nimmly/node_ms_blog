@@ -19,3 +19,8 @@ Node version is v16.17.0
 2. docker-desktop(kubernetes) => https://www.docker.com/products/docker-desktop/
 3. ingress-nginx => kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.5.1/deploy/static/provider/cloud/deploy.yaml
 4. skaffold.dev => brew install skaffold
+
+## Extra
+
+In the **infra** folder are all of the kubernetes related files. All are deployment config files, but as a practice there is a seperate service file for posts. All other configs are combinations of both deployments and services.
+Skaffold will serve as a watcher for whole architecture, so when any of the JS files is changed it will automatically update the builds and deployments.
